@@ -28,6 +28,7 @@
             android:layout_below="@+id/output_text"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="24dp"
+            android:onClick="showToast"
             android:text="@string/show_toast" />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
